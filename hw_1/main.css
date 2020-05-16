@@ -1,0 +1,54 @@
+.centerPage {
+	text-align: center;
+}
+.justify {
+	text-align: justify;
+}
+.page {
+	background: lightyellow;
+}
+.acleft {
+	float: left;
+	padding: 50px;
+}
+table {
+	font-size: 18px;
+	color: green;
+	font-style: italic;
+	margin: auto;
+}
+p {
+	font-size: 18px;
+	padding: 0 70px;
+}
+ul {
+	text-align: left;
+	padding: 0 90px;
+}
+h1 {
+	color: red;
+	text-align: center;
+}
+.logoImg {
+	width: 70%;
+}
+.postImg {
+	vertical-align: middle;
+}
+.practImg {
+	padding: 0px 30px 0px 70px;
+	width: 600px;
+	float: left;
+}
+.zakImg {
+	padding: 10px 70px 10px 30px;
+	float: right;
+}
+.bold {
+	font-weight: bold;
+}
+
+
+
+
+		
