@@ -11,19 +11,21 @@
 	float: left;
 	padding: 50px;
 }
-table {
-	font-size: 18px;
+.list {
+	font-size: 26px;
 	color: green;
+	font-style: italic;
+	text-align: left;
+	padding: 0 90px;
+}
+.table {
+	font-size: 18px;
 	font-style: italic;
 	margin: auto;
 }
 p {
 	font-size: 18px;
 	padding: 0 70px;
-}
-ul {
-	text-align: left;
-	padding: 0 90px;
 }
 h1 {
 	color: red;
