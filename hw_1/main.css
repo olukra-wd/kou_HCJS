@@ -34,6 +34,14 @@
 .text {
 	text-indent: 50px;
 }
+.first-letter p:first-letter {
+	color: red;
+	font-size: 150%;
+	font-family: "Times New Roman";
+}
+.color-text {
+	color: red;
+}
 .heading {
 	color: red;
 	text-align: center;
@@ -45,12 +53,12 @@
 	vertical-align: text-bottom;
 }
 .practImg {
-	padding: 0px 30px 0px 70px;
+	padding: 0px 30px 0px 30px;
 	width: 600px;
 	float: left;
 }
 .zakImg {
-	padding: 10px 70px 10px 30px;
+	padding: 10px 30px 10px 30px;
 	float: right;
 }
 .bold {
