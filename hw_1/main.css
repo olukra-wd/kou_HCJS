@@ -1,24 +1,72 @@
-.centerPage {
-	text-align: center;
-}
-.justify {
-	text-align: justify;
-}
-.page {
+.box {
+	width: 1070px;
+	height: 100%;
+	margin: 0px auto;
+	margin-top: -1px;
+	padding-top: 1px;
 	background: lightyellow;
 	font-size: 18px;
 }
-.acleft {
+.centerPage {
+	text-align: center;
+}
+.logoImg {
+	width: 70%;
+}
+.box1 {
+	width: 250px;
+	box-sizing: border-box;
+	margin: 8px;
+	padding: 10px;
 	float: left;
-	padding: 50px;
+	background: white;
 }
 .list {
 	color: green;
 	font-style: italic;
 	text-align: left;
-	padding: 70px;
-	background: moccasin;
-	list-style-type: square;
+	padding: 20px;
+	list-style-type: none;
+}
+.line {
+	height: 2px;
+	color: red;
+	background-color: red;
+}
+.box2 {
+	width: 800px;
+	box-sizing: border-box;
+	padding: 20px;
+	border: 10px;
+	margin: 8px 0px 159px 0px;
+	background: floralwhite;
+	float: right;
+}
+.postImg {
+	padding: 10px;
+	border: 6px;
+	margin: 8px 8px 0px 8px;
+	width: 340px;
+}
+.block {
+	display: inline-block;
+	font-style: italic;
+}
+#box-floo {
+	float: center;
+	bottom: -620px;
+	width: 1070px;
+	height: 50px;
+	position: absolute;
+}
+.text-floo {
+	text-decoration: overline;
+	text-align: center;
+	color: red;
+}
+.heading {
+	color: red;
+	text-align: center;
 }
 .practList {
 	list-style-type: circle;
@@ -26,46 +74,28 @@
 	font-style: italic;
 	font-weight: bold;
 }
-.table {
-	font-style: italic;
-	margin: auto;
-	background: floralwhite;
-}
 .text {
 	text-indent: 50px;
+	text-align: justify;
 }
 .first-letter p:first-letter {
 	color: red;
 	font-size: 150%;
 	font-family: "Times New Roman";
 }
-.color-text {
-	color: red;
-}
-.heading {
-	color: red;
-	text-align: center;
-}
-.logoImg {
-	width: 70%;
-}
-.postImg {
-	vertical-align: text-bottom;
-}
 .practImg {
-	padding: 0px 30px 0px 30px;
+	padding: 0px 30px 0px 0px;
 	width: 600px;
 	float: left;
 }
 .zakImg {
-	padding: 10px 30px 10px 30px;
+	padding: 10px 0px 10px 30px;
 	float: right;
 }
 .bold {
 	font-weight: bold;
 }
-
-
-
-
+.color-text {
+	color: red;
+}
 		
