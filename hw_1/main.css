@@ -2,45 +2,48 @@
    Common styles (start)
 */
 * {
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-	width: 1070px;
-	height: 100%;
-	margin: -1px auto 0;
-	padding-top: 1px;
-	background: lightyellow;
-	font-size: 18px;
-}
-.centerPage {
-	text-align: center;
-}
-.line {
-	border: none;
-	height: 2px;
-	color: red;
-	background-color: red;
+    width: 1070px;
+    height: 100%;
+    margin: -1px auto 0;
+    padding-top: 1px;
+    background: lightyellow;
+    font-size: 18px;
 }
 
+.centerPage {
+    text-align: center;
+}
+
+.line {
+    border: none;
+    height: 2px;
+    color: red;
+    background-color: red;
+}
 
 
 /*
 	HEADER styles (start)
 */
 .heading {
-	color: red;
-	text-align: center;
+    color: red;
+    text-align: center;
 }
+
 .logoImg {
-	width: 70%;
+    width: 70%;
 }
+
 .list {
-	color: green;
-	font-style: italic;
-	text-align: left;
-	padding: 20px;
-	list-style-type: none;
+    color: green;
+    font-style: italic;
+    text-align: left;
+    padding: 20px;
+    list-style-type: none;
 }
 
 
@@ -48,36 +51,42 @@ body {
 	<MAIN> styles (start)
 */
 .full_content {
-	width: 1070px;
+    width: 1070px;
 }
+
 .full_content > aside {
-	vertical-align: top;
-	display: inline-block;
-	width: 250px;
-	padding: 10px;
-	background: white;
+    vertical-align: top;
+    display: inline-block;
+    width: 250px;
+    padding: 10px;
+    background: white;
 }
+
 .full_content > main {
-	vertical-align: top;
-	display: inline-block;
-	width: 800px;
-	box-sizing: border-box;
-	padding: 20px;
-	border: 10px;
-	background: floralwhite;
+    vertical-align: top;
+    display: inline-block;
+    width: 800px;
+    box-sizing: border-box;
+    padding: 20px;
+    border: 10px;
+    background: floralwhite;
 }
+
 .postImg {
-	display: inline-block;
+    display: inline-block;
 }
+
 .postImg img {
-	width: 340px;
+    width: 340px;
 }
+
 .block {
-	display: inline-block;
-	font-style: italic;
+    display: inline-block;
+    font-style: italic;
 }
+
 .block figure {
-	margin: 15px;
+    margin: 15px;
 }
 
 
@@ -85,42 +94,55 @@ body {
 	FOOTER (start)
 */
 #box-floo {
-	width: 1070px;
-	height: 50px;
-	position: absolute;
+    width: 1070px;
+    height: 50px;
+    position: absolute;
 }
+
 .text-floo {
-	text-decoration: overline;
-	text-align: center;
-	color: red;
+    text-align: center;
+    color: red;
 }
+
+/*
+	file pract_infa (start)
+*/
 .practList {
-	list-style-type: circle;
-	color: green;
-	font-style: italic;
-	font-weight: bold;
+    list-style-type: circle;
+    color: green;
+    font-style: italic;
+    font-weight: bold;
 }
+
 .text {
-	text-indent: 50px;
-	text-align: justify;
+    text-indent: 50px;
+    text-align: justify;
 }
+
 .first-letter p:first-letter {
-	color: red;
-	font-size: 150%;
-	font-family: "Times New Roman";
+    color: red;
+    font-size: 150%;
+    font-family: "Times New Roman";
 }
+
 .practImg {
-	padding: 0px 30px 0px 0px;
-	width: 600px;
-	float: left;
+    padding: 0px 30px 0px 0px;
+    width: 600px;
+    float: left;
 }
+
+/*
+	file zakvacka (start)
+*/
 .zakImg {
-	padding: 10px 0px 10px 30px;
-	float: right;
+    padding: 10px 0px 10px 30px;
+    float: right;
 }
+
 .bold {
-	font-weight: bold;
+    font-weight: bold;
 }
+
 .color-text {
-	color: red;
+    color: red;
 }
