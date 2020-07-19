@@ -1,57 +1,97 @@
-*{
-	box-sizing: border-box;
+* {
+    box-sizing: border-box;
 }
+
 body {
-	margin: 0;
-	background-image: url("images/hleb.jpg");
-	background-size: cover;
+    margin: 0;
+    background-image: url("images/hleb.jpg");
+    background-size: cover;
 }
+
 .container {
-	min-width: 256px;
-	max-width: 1140px;
-	margin: 0 auto;
+    min-width: 256px;
+    max-width: 1140px;
+    margin: 0 auto;
 }
 
 /* HEADER (start) */
 
 .header {
-	display: block;
-	background-color: rgba(0, 189, 214, 0.8);
-	height: 80px;
+    display: block;
+    background-color: rgba(0, 189, 214, 0.8);
+    height: 80px;
 }
 
 .logo {
-	display: inline-block;
-	vertical-align: middle;
-	padding: 0 30px 0 0;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 30px 0 0;
 }
+
 .siteName {
-	display: inline-block;
-	font-family: 'Lobster', cursive;
-	color: #ffffff;
-	padding: 0 45px 0 0;
+    display: inline-block;
+    font-family: 'Lobster', cursive;
+    color: #ffffff;
+    padding: 0 30px 0 0;
 }
+
 .headerMenu {
-	display: inline-block;
+    display: inline-block;
 }
+
 .headerMenu ul {
-	list-style: none;
-	padding: 0;
-	margin: 0;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
-.headerMenu > ul  > li {
-	display: inline-block;
-	padding: 0 10px 0 0;
+
+.headerMenu > ul > li {
+    display: inline-block;
+    padding: 0 20px 0 0;
+    color: #ffffff;
 }
+
+.headerMenu-base > li {
+    margin: 0;
+}
+
+.headerMenu-drop:hover > ul {
+    display: block;
+
+}
+
+.headerMenu-sub {
+    position: absolute;
+    background-color: rgba(0, 189, 214, 1);
+    display: none;
+}
+
+.headerMenu-sub > li > a {
+    display: block;
+    padding: 8px 16px 8px 2px;
+    min-width: 150px;
+    color: #ffffff;
+}
+
+.headerMenu-sub > li > a:hover {
+    background-color: #d2691e;
+}
+
 .contacts {
-	display: inline-block;
-	padding: 0 0 0 75px;
+    display: inline-block;
+    padding: 0 0 0 20px;
+    color: #ffffff;
 }
+
 .imgCenter {
-	vertical-align: middle;
+    vertical-align: middle;
 }
+
 .contacts > address, .contacts > div {
-	display: inline-block;
-	padding: 0 5px 0 5px;
+    display: inline-block;
+    padding: 0 5px 0 5px;
 }
+
+/* HEADER (END) */
+
 
